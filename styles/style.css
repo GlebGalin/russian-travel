@@ -1,4 +1,4 @@
-div, h1, h2, h3, h4, h5, h6, p, section, body, header, img{
+div, h1, h2, h3, h4, h5, h6, p, section, body, header, img, a, footer{
   border: 1px solid red;
 }
 
@@ -15,22 +15,41 @@ div, h1, h2, h3, h4, h5, h6, p, section, body, header, img{
   width: 1fr;
   height: 54px;
   display: flex;
-  align-self: center;
+  flex-direction: row;
   margin: 16px 16px 0px;
+  justify-content: flex-start;
 }
 
 .header__logo{
+  display: flex;
+  justify-content: flex-start;
   margin: 0;
-  width: 50%;
+
 }
 
 .header__lang-link{
+  justify-self: flex-end;
+  margin: 0;
+  align-self: center;
+  color: aliceblue;
+  font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 20px;
   text-align: right;
   text-decoration-line: underline;
+}
+
+.header__lang-link_language_ru{
+  margin-top: 14px;
+  margin-left: auto;
+  margin-right: 18px;
+}
+
+.header__lang-link_language_en{
+margin-top: 14px;
+text-decoration: none;
 }
 
 .lead{
@@ -138,14 +157,13 @@ div, h1, h2, h3, h4, h5, h6, p, section, body, header, img{
 
 .place{
   margin: 0;
-  margin-top: 49px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .place__title{
-  width: 1fr;
+  width: calc(100% - 32px);
   margin: 0 16px 0;
   font-style: normal;
   font-weight: 900;
@@ -158,10 +176,84 @@ div, h1, h2, h3, h4, h5, h6, p, section, body, header, img{
   margin-top: 32px;
 }
 
-.place__paragrapg{
-  margin: 32x 16px 0;
+.place__paragraph{
+  margin: 32px 16px 0;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 163%;
+}
+
+.place__paragraph:nth-of-type(2){
+  margin-top: 25px;
+}
+
+.cover{
+  background-image: url(../images/cover__image.png);
+  height: 1fr;;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  margin-top: 66px;
+}
+
+.cover__title{
+  margin: 33px 16px 0;
+  padding: auto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 35px;
+  text-align: center;
+}
+
+.cover__subtitle{
+  margin: 16px 16px 0;
+  padding: auto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+}
+
+
+.footer{
+  width: 186px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 64px;
+  margin-left: 16px;
+  margin-bottom: 24px;
+
+}
+
+.footer__menu{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer__link{
+  margin: 0;
+  margin-bottom: 32px;
+  color: white;
+  text-decoration: none;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.footer__copyright{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  margin: 0;
+  margin-top: 48px;
 }
