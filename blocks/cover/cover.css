@@ -1,22 +1,22 @@
 .cover{
   display: flex;
-  flex-direction: column;
-  text-decoration: none;
-  position: relative;
-  background-image: url(../../images/cover__image.png);
+  border: 1px solid greenyellow;
+  margin: 66px 0;
+  background-image: url(../../images/cover__image.jpg);
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
 }
 
 .cover::after{
   content: "";
   width: 0;
   height: 0;
-  margin-left: -1px;
   padding-top: calc(740 / 1184 * 100%);
 }
-
 
 @media screen and (min-width: 766px) and (max-width: 1023px){
 }
