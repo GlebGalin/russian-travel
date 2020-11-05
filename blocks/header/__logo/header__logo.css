@@ -12,4 +12,10 @@
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px){
+  .header__logo{
+    width: 176px;
+  }
+}
+
+@media screen and (min-width: 1280px){
 }

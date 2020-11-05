@@ -3,3 +3,9 @@
   margin-top: 20px;
   align-self: start;
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1279px){
+  .place__text{
+    margin-top: 16px;
+  }
+}
