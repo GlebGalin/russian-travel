@@ -27,3 +27,12 @@
     margin-top: 27px;
   }
 }
+
+@media screen and (min-width: 1280px){
+  .place__paragraph{
+    margin: 0;
+  }
+  .place__paragraph:nth-of-type(2){
+    margin-top: 27px;
+  }
+}

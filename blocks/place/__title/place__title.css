@@ -26,5 +26,15 @@
     width: 100%;
     margin: 0;
     align-self: start;
+  }
 }
+
+@media screen and (min-width: 1280px){
+  .place__title{
+    font-size: 72px;
+    line-height: 76px;
+    width: 100%;
+    margin: 0;
+    align-self: start;
+  }
 }

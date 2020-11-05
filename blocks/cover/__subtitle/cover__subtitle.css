@@ -1,6 +1,7 @@
 .cover__subtitle{
-  margin: 16px 16px 0;
-  padding: auto;
+  display: block;
+  font-family: Inter;
+  color: white;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;

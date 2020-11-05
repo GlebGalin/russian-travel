@@ -16,9 +16,15 @@
     margin: 0;
     margin-top: 92px;
     margin-left: 48px;
-    width: calc(100% - 286px);
+    max-width: 690px;;
   }
 }
 
 @media screen and (min-width: 1280px){
+  .intro{
+    margin: 0;
+    margin-top: 92px;
+    margin-left: 148px;
+    max-width: 690px;
+  }
 }
