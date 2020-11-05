@@ -6,4 +6,10 @@
 }
 
 @media screen and (min-width: 766px) and (max-width: 1023px){
+  .place{
+    display: grid;
+    gap: 28px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: max-content(1fr) max-content(1fr); 
+  }
 }

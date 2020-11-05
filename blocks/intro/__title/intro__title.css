@@ -10,6 +10,8 @@
   .intro__title{
     font-size: 54px;
     line-height: 58px;  
-    
   }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px){
 }

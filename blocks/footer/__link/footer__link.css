@@ -11,4 +11,15 @@
 }
 
 @media screen and (min-width: 766px) and (max-width: 1023px){
+  .footer__link{
+    margin: 0;
+    margin-left: 18px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .footer__link:first-of-type{
+    margin-left: 0;
+  }
 }
