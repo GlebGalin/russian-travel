@@ -1,7 +1,5 @@
 .header__lang-link{
-  justify-self: flex-end;
   margin: 0;
-  align-self: center;
   color: aliceblue;
   font-family: Inter;
   font-style: normal;
@@ -12,10 +10,16 @@
   text-decoration-line: underline;
   opacity: 1;
   transition: opacity .2s linear;
+  margin-left: 18px;
+  margin-bottom: 6px;
+}
+
+.header__lang-link:first-of-type{
+  margin-left: 0;
 }
 
 .header__lang-link:hover{
-  opacity: .6;
+  opacity: .8;
 }
 
 @media screen and (min-width: 766px) and (max-width: 1023px){

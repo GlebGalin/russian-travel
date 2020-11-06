@@ -1,6 +1,6 @@
 .cover{
   display: flex;
-  margin: 66px 0;
+  margin: 66px 0 0;
   background-image: url(../../images/cover__image.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -16,4 +16,22 @@
   width: 0;
   height: 0;
   padding-top: calc(740 / 1184 * 100%);
+}
+
+@media screen and (min-width: 766px) and (max-width: 1023px){
+  .cover{
+    margin-top: 90px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px){
+  .cover{
+    margin-top: 92px;
+  }
+}
+
+@media screen and (min-width: 1280px){
+  .cover{
+    margin: 92px 48px 0
+  }
 }
