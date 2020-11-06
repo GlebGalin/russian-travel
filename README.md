@@ -27,3 +27,9 @@
 * flex-box
 * grid-layout
 * Медиазапросы
+
+**Ссылка на проект**
+
+* https://glebgalin.github.io/russian-travel/
+
+
