@@ -1,6 +1,7 @@
 .place__title{
   width: calc(100% - 32px);
   margin: 0 16px 0;
+  font-family: Inter;
   font-style: normal;
   font-weight: 900;
   font-size: 32px;
