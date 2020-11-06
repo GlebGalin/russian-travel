@@ -1,6 +1,5 @@
 .cover{
   display: flex;
-  border: 1px solid greenyellow;
   margin: 66px 0;
   background-image: url(../../images/cover__image.jpg);
   background-position: center;
@@ -9,6 +8,7 @@
   align-items: center;
   justify-content: center;
   text-decoration: none;
+  position: relative;
 }
 
 .cover::after{
@@ -16,7 +16,4 @@
   width: 0;
   height: 0;
   padding-top: calc(740 / 1184 * 100%);
-}
-
-@media screen and (min-width: 766px) and (max-width: 1023px){
 }

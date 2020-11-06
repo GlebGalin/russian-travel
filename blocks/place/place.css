@@ -5,7 +5,7 @@
   align-items: center;
 }
 
-@media screen and (min-width: 766px) and (max-width: 1023px){
+@media screen and (min-width: 766px){
   .place{
     display: grid;
     gap: 28px;
@@ -16,18 +16,12 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1279px){
   .place{
-    display: grid;
     gap: 32px;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: max-content(1fr) max-content(1fr); 
   }
 }
 
 @media screen and (min-width: 1280px){
   .place{
-    display: grid;
     gap: 40px;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: max-content(1fr) max-content(1fr); 
   }
 }

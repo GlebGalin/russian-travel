@@ -4,12 +4,3 @@
  margin-top: 40px;
  object-fit: cover;
 }
-
-@media screen and (min-width: 766px) and (max-width: 1023px){
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1279px){
-}
-
-@media screen and (min-width: 1280px){
-}

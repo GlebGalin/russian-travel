@@ -8,9 +8,16 @@
   line-height: 35px;
   text-align: center;
   text-decoration: none;
+  z-index: 1;
+  max-width: 288px;
   
 
 }
 
-@media screen and (min-width: 766px) and (max-width: 1023px){
+@media screen and (min-width: 766px){
+  .cover__title{
+    font-size: 72px;
+    line-height: 76px;  
+    max-width: 560px;
+  }
 }
