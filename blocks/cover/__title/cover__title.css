@@ -8,10 +8,7 @@
   line-height: 35px;
   text-align: center;
   text-decoration: none;
-  z-index: 1;
   max-width: 288px;
-  
-
 }
 
 @media screen and (min-width: 766px){

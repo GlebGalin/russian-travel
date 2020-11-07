@@ -1,5 +1,13 @@
 .cover__text{
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  width: 100%;
+  background: rgba(42, 44, 47, 0.3);
+  transition: .2s linear;
+}
+
+.cover__text:hover{
+  background: rgba(42, 44, 47, 0.8);
 }
