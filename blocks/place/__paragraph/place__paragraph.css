@@ -22,7 +22,9 @@
 
 @media screen and (min-width: 1024px){
   .place__paragraph:nth-of-type(2){
-    font-size: 18px;
     margin-top: 27px;
+  }
+  .place__paragraph{
+    font-size: 18px;
   }
 }
